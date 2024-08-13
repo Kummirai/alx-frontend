@@ -16,11 +16,6 @@
   --font-weight-bold: 700;
 }
 
-body {
-  font-family: var(--font-family-base);
-  font-weight: var(--font-weight-regular);
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
@@ -33,6 +28,11 @@ h1, h2, h3, h4, h5, h6 {
 body, a {
   color: var(--text-color);
   font-size: var(--font-size-medium);
+}
+
+body {
+  font-family: var(--font-family-base);
+  font-weight: var(--font-weight-regular);
 }
 
 html{
